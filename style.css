@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+.header-wrapper{
+    margin:50px 0px;
+}
+.header-wrapper>img{
+    border-radius: 50px;
+}
+.header-wrapper p{
+    margin: 25px 0px;
+}
+
+
+/* banner start */
+.banner>.container>.banner-child h1{
+        font-family: "Averia Serif Libre", serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+
+
+.prepar{
+position: relative;
+left: 30px;
+background-color: rgb(248, 220, 241);
+border-radius: 10px;
+padding: 15px;
+      }
+
+
+.banner>.container>.banner-child h4{
+    color: blueviolet;
+}
+
+.banner>.container>.banner-child span{
+    font-weight: 500;
+}
+.banner>.container>.banner-child>div>ul>li{
+    padding: 5px;
+}
+/* banner end */
+
+
+/* Ingrediant start */
+.ingrediants>.container>.ingrediants-child h3{
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    color:brown;
+  }
+
+  .ingrediants>.container>.ingrediants-child>ul>li{
+    padding: 5px;
+  }
+  /* ingrediant end */
+
+
+
+/* instruction start */
+  .instructions>.container>.instructions-child h3{
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    color:brown;
+  }
+  .instructions>.container>.instructions-child>ol>li>p>span{
+    font-weight: 500;
+  }
+  /* Instruction end */
+
+
+
+  /* Nutrition start */
+  .nutrition>.container>.nutrition-child h3{
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    color:brown;
+  }
+
+  .nutrition-child>div>div:last-child{
+    font-weight: 700;
+    color:brown;
+  }
+
+  .nutrition-child>div>div:first-child,
+  .nutrition-child>div>div:last-child{
+    margin: 0px !important;
+  }
